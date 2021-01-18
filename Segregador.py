@@ -1,6 +1,8 @@
 import os
 import shutil
 
+SEGREGADOR_EXE = Segregador.exe
+
 S = "Segregador.py"
 
 segregar_por_gd_str = input('''Segregar por [!] "Verified Good Dump?"\n''')
@@ -54,7 +56,7 @@ for arquivo in next(os.walk('.'))[2]:
     path = os.path.sep
     path += arquivo[0].upper() + os.path.sep
 
-    if arquivo == S:
+    if arquivo == S or arquivo == SEGREGADOR_EXE:
         continue
 
     if segregar_por_regiao:
