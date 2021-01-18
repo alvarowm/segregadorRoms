@@ -1,7 +1,7 @@
 import os
 import shutil
 
-SEGREGADOR_EXE = Segregador.exe
+SEGREGADOR_EXE = "Segregador.exe"
 
 S = "Segregador.py"
 
