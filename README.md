@@ -2,7 +2,7 @@
 
 Um simples script em Python 3.9.1 para segregar as roms para uso em flashcarts como o EverDrive.
 
-As roms serão separas de acordo com https://www.emuparadise.me/help/romnames.php, nenhuma rom será modificada ou deletada.
+As roms serão separadas de acordo com https://www.emuparadise.me/help/romnames.php, nenhuma rom será modificada ou deletada.
 
 As imagens de jogos que tem seus dumps verificados tem o código [!] e podem ser separadas também.
 
